@@ -6,13 +6,7 @@ import { avatarPlaceholderUrl, navItems } from '@/constants';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
-interface Props {
-  fullName: string;
-  email: string;
-  avatar?: string | null;
-}
-
-const Sidebar = ({ fullName, email, avatar }: Props) => {
+const Sidebar = ({ fullName, email, avatar }: SidebarProps) => {
   const pathname = usePathname();
 
   return (
