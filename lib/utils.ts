@@ -128,7 +128,9 @@ export const getFileIcon = (
       return '/assets/icons/file-txt.svg';
     case 'xls':
     case 'xlsx':
-      return '/assets/icons/file-document.svg';
+      return '/assets/icons/excel.svg';
+    case 'fig':
+      return '/assets/icons/figma.svg';
     // Image
     case 'svg':
       return '/assets/icons/file-image.svg';
