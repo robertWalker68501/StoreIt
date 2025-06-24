@@ -4,7 +4,7 @@ import Image from 'next/image';
 const AuthLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className='flex min-h-screen'>
-      <section className='bg-brand p-10 hidden w-1/2 items-center justify-center lg:flex xl:w-2/5'>
+      <section className='hidden w-1/2 items-center justify-center bg-brand p-10 lg:flex xl:w-2/5'>
         <div className='flex max-h-[800px] max-w-[430px] flex-col justify-center space-y-12'>
           <Image
             src='/assets/icons/logo-full.svg'
@@ -17,8 +17,8 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
           <div className='space-y-5 text-white'>
             <h1 className='h1'>Manage your files the best way</h1>
             <p className='body-1'>
-              Awesome, we've created the perfect place for you to store all your
-              documents.
+              Awesome, we&#39;ve created the perfect place for you to store all
+              your documents.
             </p>
           </div>
 
